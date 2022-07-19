@@ -1,0 +1,7 @@
+userCode: fangw1
+password: /XrJ0I8kCO6JZ6rxmTpvmg==
+channel: PC
+method: get
+veryfi:
+  errMsg: success
+description: 使用固定的账号登录后获取token供其他接口使用

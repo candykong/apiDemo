@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testCase",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "test_login[casedata0]",
+        "uid" : "31d1e51733799aa",
+        "parentUid" : "6fadf7238fcae6e102e01a374c78462a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652169577636,
+          "stop" : 1652169577702,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
+      }, {
+        "name" : "test_login[casedata1]",
+        "uid" : "5e633cc5c198cdcf",
+        "parentUid" : "6fadf7238fcae6e102e01a374c78462a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652169577833,
+          "stop" : 1652169577882,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'fangw1', 'veryfi': {'errMsg': 'success'}, 'description': '验证超级账号登录是否正常'}" ]
+      } ],
+      "uid" : "6fadf7238fcae6e102e01a374c78462a"
+    }, {
+      "name" : "test_remindMatterList",
+      "children" : [ {
+        "name" : "test_remindMatterList[casedata0]",
+        "uid" : "3bee9655b8c40f92",
+        "parentUid" : "e7879716a05fe7ec72175234f919f538",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652169577890,
+          "stop" : 1652169577934,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}" ]
+      } ],
+      "uid" : "e7879716a05fe7ec72175234f919f538"
+    } ],
+    "uid" : "787f89db47e8c6cf7f049d23fac0e26f"
+  } ]
+}

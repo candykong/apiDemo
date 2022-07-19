@@ -1,0 +1,4 @@
+- channel: PC
+  veryfi:
+    errMsg: success
+  description: 验证pc端事项列表是否正常

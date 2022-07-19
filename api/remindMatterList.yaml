@@ -1,0 +1,8 @@
+url: /fins-console-sso/user/remindMatterList
+method: get
+form: json
+headers:
+  content-type: application/json
+  token: $token
+json:
+  channel: $channel

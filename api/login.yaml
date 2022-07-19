@@ -1,0 +1,9 @@
+url: /fins-console-sso/user/login
+method: post
+form: json
+headers:
+  content-type: application/json
+json:
+  userCode: $userCode
+  password: $password
+  channel:  $channel

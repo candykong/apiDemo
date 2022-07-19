@@ -1,0 +1,4 @@
+description: test
+sql: select apply_id,stage from finscloud_product_risk_import_lid.`risk_exec_status` a where a.apply_id in ('000106487019822','000164079010034')
+
+

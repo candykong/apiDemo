@@ -1,0 +1,31 @@
+[ {
+  "uid" : "5e633cc5c198cdcf",
+  "name" : "test_login[casedata1]",
+  "time" : {
+    "start" : 1652169577833,
+    "stop" : 1652169577882,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31d1e51733799aa",
+  "name" : "test_login[casedata0]",
+  "time" : {
+    "start" : 1652169577636,
+    "stop" : 1652169577702,
+    "duration" : 66
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bee9655b8c40f92",
+  "name" : "test_remindMatterList[casedata0]",
+  "time" : {
+    "start" : 1652169577890,
+    "stop" : 1652169577934,
+    "duration" : 44
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

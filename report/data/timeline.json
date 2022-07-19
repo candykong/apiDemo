@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "kongdeMacBook-Air.local",
+    "children" : [ {
+      "name" : "5409-MainThread",
+      "children" : [ {
+        "name" : "test_remindMatterList[casedata0]",
+        "uid" : "3bee9655b8c40f92",
+        "parentUid" : "f51a516447e053a66ad95ddaf156a657",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652169577890,
+          "stop" : 1652169577934,
+          "duration" : 44
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}" ]
+      }, {
+        "name" : "test_login[casedata1]",
+        "uid" : "5e633cc5c198cdcf",
+        "parentUid" : "f51a516447e053a66ad95ddaf156a657",
+        "status" : "passed",
+        "time" : {
+          "start" : 1652169577833,
+          "stop" : 1652169577882,
+          "duration" : 49
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'fangw1', 'veryfi': {'errMsg': 'success'}, 'description': '验证超级账号登录是否正常'}" ]
+      }, {
+        "name" : "test_login[casedata0]",
+        "uid" : "31d1e51733799aa",
+        "parentUid" : "f51a516447e053a66ad95ddaf156a657",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652169577636,
+          "stop" : 1652169577702,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
+      } ],
+      "uid" : "f51a516447e053a66ad95ddaf156a657"
+    } ],
+    "uid" : "eb70b38d146bd7b7359e0dac3ddc063f"
+  } ]
+}

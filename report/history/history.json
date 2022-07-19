@@ -1,0 +1,61 @@
+{
+  "221ecc6e1817138a417f86b90380675f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3bee9655b8c40f92",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'errMsg'",
+      "time" : {
+        "start" : 1652169577890,
+        "stop" : 1652169577934,
+        "duration" : 44
+      }
+    } ]
+  },
+  "6061452b3662f0e45fd2fb20b7e3458e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5e633cc5c198cdcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652169577833,
+        "stop" : 1652169577882,
+        "duration" : 49
+      }
+    } ]
+  },
+  "9e54f0f5961ee2a0eb6043221697b907" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31d1e51733799aa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '帐号或密码输入错误' == 'aasuccess1'\n  - aasuccess1\n  + 帐号或密码输入错误",
+      "time" : {
+        "start" : 1652169577636,
+        "stop" : 1652169577702,
+        "duration" : 66
+      }
+    } ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testCase",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "Test_login",
+        "children" : [ {
+          "name" : "test_login[casedata0]",
+          "uid" : "31d1e51733799aa",
+          "parentUid" : "341d7cec633af028e8f6fa79cbb52c8d",
+          "status" : "failed",
+          "time" : {
+            "start" : 1652169577636,
+            "stop" : 1652169577702,
+            "duration" : 66
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
+        }, {
+          "name" : "test_login[casedata1]",
+          "uid" : "5e633cc5c198cdcf",
+          "parentUid" : "341d7cec633af028e8f6fa79cbb52c8d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652169577833,
+            "stop" : 1652169577882,
+            "duration" : 49
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'fangw1', 'veryfi': {'errMsg': 'success'}, 'description': '验证超级账号登录是否正常'}" ]
+        } ],
+        "uid" : "341d7cec633af028e8f6fa79cbb52c8d"
+      } ],
+      "uid" : "0ec8d3b25cdd12ce87c9d3fd36ad5ec3"
+    }, {
+      "name" : "test_remindMatterList",
+      "children" : [ {
+        "name" : "Test_remindMatterList",
+        "children" : [ {
+          "name" : "test_remindMatterList[casedata0]",
+          "uid" : "3bee9655b8c40f92",
+          "parentUid" : "e8b4482618282c213544a4535980a84b",
+          "status" : "broken",
+          "time" : {
+            "start" : 1652169577890,
+            "stop" : 1652169577934,
+            "duration" : 44
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}" ]
+        } ],
+        "uid" : "e8b4482618282c213544a4535980a84b"
+      } ],
+      "uid" : "a682e3428875167922da22e8d31cc87c"
+    } ],
+    "uid" : "d3cf1515650a5ed7a96e23a845f006fa"
+  } ]
+}
