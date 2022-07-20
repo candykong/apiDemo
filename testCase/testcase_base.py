@@ -29,7 +29,7 @@ class Testcase_base():
         self.data = data
         self.httpRequest = HttpRequest(self.data)
         try:
-            self.response = self.httpRequest.send()
+            self.response = self.httpRequest.send_new()
             return self.response
         except Exception as e:
             error_logger.info("请求发送失败".format(e))
@@ -37,3 +37,5 @@ class Testcase_base():
 
     def teardown(self):
         print('测试结束')
+
+

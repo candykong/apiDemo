@@ -1,0 +1,14 @@
+url: /fins-console-risk/strategy/listQuery
+method: post
+form: json
+headers:
+  content-type: application/json
+  token: $token
+json:
+  isRel: $isRel
+  pageNum: $pageNum
+  pageSize: $pageSize
+  strategyCode: $strategyCode
+  strategyName: $strategyName
+  strategyStatus: $strategyStatus
+  strategyType: $strategyType

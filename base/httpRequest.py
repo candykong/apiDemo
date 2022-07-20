@@ -19,6 +19,11 @@ class HttpRequest:
         self.env = yaml.safe_load(open("./config/env.yaml"))
         self.url = self.env["url"][self.env["default"]] + str(self.data["url"])
 
+        #将参数中变量值为null的去掉
+        self.new_json = {key: value for key, value in self.json.items() if value != 'None'}
+        print(self.new_json)
+
+
     def send(self):
         if (self.method == "get" and self.json == None):
             r = requests.get(url=self.url, headers=self.headers)
@@ -34,6 +39,28 @@ class HttpRequest:
 
         elif (self.method == "post" and self.form == "multipart/form-data"):
             r = requests.post(url=self.url, headers=self.headers, files=ast.literal_eval(self.json))
+
+        else:
+            print("'暂时不支持该方法，请继续补充方法'")
+            r = None
+        return r
+
+    #根据去掉参数为空值后的参数去请求
+    def send_new(self):
+        if (self.method == "get" and self.new_json == None):
+            r = requests.get(url=self.url, headers=self.headers)
+
+        elif (self.method == "get" and self.new_json != None):
+            r = requests.get(url=self.url, headers=self.headers, params=self.new_json)
+
+        elif (self.method == "post" and self.form == "json"):
+            r = requests.post(url=self.url, headers=self.headers, json=self.new_json)
+
+        elif (self.method == "post" and self.form == "json"):
+            r = requests.post(url=self.url, headers=self.headers, json=self.new_json)
+
+        elif (self.method == "post" and self.form == "multipart/form-data"):
+            r = requests.post(url=self.url, headers=self.headers, files=ast.literal_eval(self.new_json))
 
         else:
             print("'暂时不支持该方法，请继续补充方法'")
