@@ -3,7 +3,7 @@ method: post
 form: json
 headers:
   content-type: application/json
-  token: $token1
+  token: $token
 json:
   isRel: $isRel
   pageNum: $pageNum
