@@ -1,47 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert '帐号或密码输入错误' == 'aasuccess1'\n  - aasuccess1\n  + 帐号或密码输入错误",
-      "children" : [ {
-        "name" : "test_login[casedata0]",
-        "uid" : "31d1e51733799aa",
-        "parentUid" : "3aa80b220d5c78c2b007c88a25a4f556",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652169577636,
-          "stop" : 1652169577702,
-          "duration" : 66
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
-      } ],
-      "uid" : "3aa80b220d5c78c2b007c88a25a4f556"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "KeyError: 'errMsg'",
-      "children" : [ {
-        "name" : "test_remindMatterList[casedata0]",
-        "uid" : "3bee9655b8c40f92",
-        "parentUid" : "a74a4425983ed881ec9a1c07fd07bf64",
-        "status" : "broken",
-        "time" : {
-          "start" : 1652169577890,
-          "stop" : 1652169577934,
-          "duration" : 44
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}" ]
-      } ],
-      "uid" : "a74a4425983ed881ec9a1c07fd07bf64"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

@@ -1,0 +1,1 @@
+test_login.py-32-2022-07-28 14:49:24,141-INFO-/fins-console-sso/user/login的验证超级账号登录是否正常用例执行成功

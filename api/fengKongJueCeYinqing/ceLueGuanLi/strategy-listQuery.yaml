@@ -12,3 +12,4 @@ json:
   strategyName: $strategyName
   strategyStatus: $strategyStatus
   strategyType: $strategyType
+

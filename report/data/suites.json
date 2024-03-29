@@ -9,26 +9,26 @@
         "name" : "Test_login",
         "children" : [ {
           "name" : "test_login[casedata0]",
-          "uid" : "31d1e51733799aa",
-          "parentUid" : "341d7cec633af028e8f6fa79cbb52c8d",
-          "status" : "failed",
-          "time" : {
-            "start" : 1652169577636,
-            "stop" : 1652169577702,
-            "duration" : 66
-          },
-          "flaky" : false,
-          "newFailed" : false,
-          "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
-        }, {
-          "name" : "test_login[casedata1]",
-          "uid" : "5e633cc5c198cdcf",
+          "uid" : "56d05167abb17673",
           "parentUid" : "341d7cec633af028e8f6fa79cbb52c8d",
           "status" : "passed",
           "time" : {
-            "start" : 1652169577833,
-            "stop" : 1652169577882,
-            "duration" : 49
+            "start" : 1658990963620,
+            "stop" : 1658990963887,
+            "duration" : 267
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'success'}, 'description': '验证某某账号是否正常'}" ]
+        }, {
+          "name" : "test_login[casedata1]",
+          "uid" : "35c18ead1f808a24",
+          "parentUid" : "341d7cec633af028e8f6fa79cbb52c8d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1658990963896,
+            "stop" : 1658990964142,
+            "duration" : 246
           },
           "flaky" : false,
           "newFailed" : false,
@@ -43,13 +43,13 @@
         "name" : "Test_remindMatterList",
         "children" : [ {
           "name" : "test_remindMatterList[casedata0]",
-          "uid" : "3bee9655b8c40f92",
+          "uid" : "f76bd7bd87270eeb",
           "parentUid" : "e8b4482618282c213544a4535980a84b",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1652169577890,
-            "stop" : 1652169577934,
-            "duration" : 44
+            "start" : 1658990964149,
+            "stop" : 1658990964493,
+            "duration" : 344
           },
           "flaky" : false,
           "newFailed" : false,
@@ -60,5 +60,30 @@
       "uid" : "a682e3428875167922da22e8d31cc87c"
     } ],
     "uid" : "d3cf1515650a5ed7a96e23a845f006fa"
+  }, {
+    "name" : "testCase.fengKongJueCeYinqing",
+    "children" : [ {
+      "name" : "test_ceLueGuanLi",
+      "children" : [ {
+        "name" : "Test_ceLueGuanLi",
+        "children" : [ {
+          "name" : "test_remindMatterList[casedata0]",
+          "uid" : "b46b89183f597d17",
+          "parentUid" : "8545d2cb39bd535755a1ec1fcd037f96",
+          "status" : "passed",
+          "time" : {
+            "start" : 1658990964500,
+            "stop" : 1658990964588,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'isRel': None, 'pageNum': 1, 'pageSize': 10, 'strategyCode': None, 'strategyName': None, 'strategyStatus': None, 'strategyType': 'strategy_1', 'veryfi': {'errMsg': 'success'}, 'description': '验证查询黑名单的第一页，每页10条'}" ]
+        } ],
+        "uid" : "8545d2cb39bd535755a1ec1fcd037f96"
+      } ],
+      "uid" : "333a320a1c145e08c3a75a27244e99c5"
+    } ],
+    "uid" : "103b2cb7fe25d53dc35acd8704b2c89b"
   } ]
 }

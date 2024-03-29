@@ -1,0 +1,1 @@
+test_login.py-32-2022-07-28 14:49:23,886-INFO-/fins-console-sso/user/login的验证某某账号是否正常用例执行成功

@@ -1,3 +1,0 @@
-test_login.py-34-2022-05-10 15:59:37,701-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert '帐号或密码输入错误' == 'aasuccess1'
-  - aasuccess1
-  + 帐号或密码输入错误

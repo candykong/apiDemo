@@ -1,5 +1,5 @@
 {
-  "uid" : "31d1e51733799aa",
+  "uid" : "21a310b7c9152542",
   "name" : "test_login[casedata0]",
   "fullName" : "testCase.test_login.Test_login#test_login",
   "historyId" : "9e54f0f5961ee2a0eb6043221697b907",
@@ -35,15 +35,15 @@
     "statusTrace" : "self = <test_login.Test_login object at 0x1037c3640>\ncasedata = {'channel': 'PC', 'description': '验证某某账号是否正常', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', ...}\n\n    @allure.story(\"登录接口\")\n    @pytest.mark.parametrize('casedata', yaml.safe_load(open(\"data/login_data.yaml\")))\n    def test_login(self,casedata):\n        self.casedata=casedata\n        self.data = CommonTemplate().template(\"api/login.yaml\", self.casedata)\n        self.r=self.getResponse(self.data)\n        # 获取用例标题和测试用例描述\n        description = casedata.get(\"description\")\n        uri = Handle_yaml(\"api/login.yaml\").get_uri()\n        try:\n            expected_errMsg=self.casedata.get(\"veryfi\").get(\"errMsg\")\n            assert (self.r.json()[\"errMsg\"] == expected_errMsg)\n            normal_logger.info(uri+\"的\"+description+\"用例执行成功\")\n        except AssertionError as e:\n            error_logger.error(uri+\"的\"+description+\"用例执行失败:{}\".format(e))\n>           raise e\n\ntestCase/test_login.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_login.Test_login object at 0x1037c3640>\ncasedata = {'channel': 'PC', 'description': '验证某某账号是否正常', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', ...}\n\n    @allure.story(\"登录接口\")\n    @pytest.mark.parametrize('casedata', yaml.safe_load(open(\"data/login_data.yaml\")))\n    def test_login(self,casedata):\n        self.casedata=casedata\n        self.data = CommonTemplate().template(\"api/login.yaml\", self.casedata)\n        self.r=self.getResponse(self.data)\n        # 获取用例标题和测试用例描述\n        description = casedata.get(\"description\")\n        uri = Handle_yaml(\"api/login.yaml\").get_uri()\n        try:\n            expected_errMsg=self.casedata.get(\"veryfi\").get(\"errMsg\")\n>           assert (self.r.json()[\"errMsg\"] == expected_errMsg)\nE           AssertionError: assert '帐号或密码输入错误' == 'aasuccess1'\nE             - aasuccess1\nE             + 帐号或密码输入错误\n\ntestCase/test_login.py:31: AssertionError",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "806576b72fe70bda",
+      "uid" : "9f1e70be472e2445",
       "name" : "stdout",
-      "source" : "806576b72fe70bda.txt",
+      "source" : "9f1e70be472e2445.txt",
       "type" : "text/plain",
       "size" : 26
     }, {
-      "uid" : "ffcbf2b0691dfa",
+      "uid" : "9f355083cacc80f2",
       "name" : "stderr",
-      "source" : "ffcbf2b0691dfa.txt",
+      "source" : "9f355083cacc80f2.txt",
       "type" : "text/plain",
       "size" : 227
     } ],
@@ -108,18 +108,12 @@
     "value" : "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "31d1e51733799aa.json",
+  "source" : "21a310b7c9152542.json",
   "parameterValues" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
 }

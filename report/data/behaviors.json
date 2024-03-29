@@ -7,26 +7,26 @@
       "name" : "登录接口",
       "children" : [ {
         "name" : "test_login[casedata0]",
-        "uid" : "31d1e51733799aa",
-        "parentUid" : "42b2dd615c95dd357f22c343548b1952",
-        "status" : "failed",
-        "time" : {
-          "start" : 1652169577636,
-          "stop" : 1652169577702,
-          "duration" : 66
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
-      }, {
-        "name" : "test_login[casedata1]",
-        "uid" : "5e633cc5c198cdcf",
+        "uid" : "56d05167abb17673",
         "parentUid" : "42b2dd615c95dd357f22c343548b1952",
         "status" : "passed",
         "time" : {
-          "start" : 1652169577833,
-          "stop" : 1652169577882,
-          "duration" : 49
+          "start" : 1658990963620,
+          "stop" : 1658990963887,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'success'}, 'description': '验证某某账号是否正常'}" ]
+      }, {
+        "name" : "test_login[casedata1]",
+        "uid" : "35c18ead1f808a24",
+        "parentUid" : "42b2dd615c95dd357f22c343548b1952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658990963896,
+          "stop" : 1658990964142,
+          "duration" : 246
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
       "name" : "获取事项列表",
       "children" : [ {
         "name" : "test_remindMatterList[casedata0]",
-        "uid" : "3bee9655b8c40f92",
+        "uid" : "f76bd7bd87270eeb",
         "parentUid" : "31b0abc7d83766b2279a743961087cb7",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1652169577890,
-          "stop" : 1652169577934,
-          "duration" : 44
+          "start" : 1658990964149,
+          "stop" : 1658990964493,
+          "duration" : 344
         },
         "flaky" : false,
         "newFailed" : false,
@@ -56,5 +56,26 @@
       "uid" : "31b0abc7d83766b2279a743961087cb7"
     } ],
     "uid" : "8431213fdb248592c2810ba1a6b3b165"
+  }, {
+    "name" : "策略管理模块接口用例脚本",
+    "children" : [ {
+      "name" : "策略列表查询",
+      "children" : [ {
+        "name" : "test_remindMatterList[casedata0]",
+        "uid" : "b46b89183f597d17",
+        "parentUid" : "d0517ab993d900ee0c79c8e20c4a7031",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658990964500,
+          "stop" : 1658990964588,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'isRel': None, 'pageNum': 1, 'pageSize': 10, 'strategyCode': None, 'strategyName': None, 'strategyStatus': None, 'strategyType': 'strategy_1', 'veryfi': {'errMsg': 'success'}, 'description': '验证查询黑名单的第一页，每页10条'}" ]
+      } ],
+      "uid" : "d0517ab993d900ee0c79c8e20c4a7031"
+    } ],
+    "uid" : "3c7537e37e0b8da530fcda58bcc8f0c6"
   } ]
 }

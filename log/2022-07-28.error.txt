@@ -1,0 +1,52 @@
+test_login.py-35-2022-07-28 15:06:25,385-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert 'success' == 'success1'
+  - success1
+  ?        -
+  + success
+test_login.py-35-2022-07-28 15:06:25,589-ERROR-/fins-console-sso/user/login的验证超级账号登录是否正常用例执行失败:assert 'success' == 'success1'
+  - success1
+  ?        -
+  + success
+test_login.py-35-2022-07-28 15:07:36,655-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert 'success' == 'success1'
+  - success1
+  ?        -
+  + success
+test_login.py-35-2022-07-28 15:07:36,940-ERROR-/fins-console-sso/user/login的验证超级账号登录是否正常用例执行失败:assert 'success' == 'success1'
+  - success1
+  ?        -
+  + success
+test_login.py-35-2022-07-28 15:17:37,129-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert 'success' == 'success1'
+  - success1
+  ?        -
+  + success
+test_login.py-35-2022-07-28 15:18:38,988-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert 'success' == 'success1'
+  - success1
+  ?        -
+  + success
+test_login.py-35-2022-07-28 15:18:51,451-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert 'success' == 'success1'
+  - success1
+  ?        -
+  + success
+test_login.py-35-2022-07-28 16:20:15,074-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert '账号或密码输入错误' == 'success1'
+  - success1
+  + 账号或密码输入错误
+test_login.py-35-2022-07-28 16:20:15,193-ERROR-/fins-console-sso/user/login的验证超级账号登录是否正常用例执行失败:assert '账号或密码输入错误' == 'success1'
+  - success1
+  + 账号或密码输入错误
+test_login.py-35-2022-07-28 16:21:04,389-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert '账号或密码输入错误' == 'success'
+  - success
+  + 账号或密码输入错误
+test_login.py-35-2022-07-28 16:21:04,502-ERROR-/fins-console-sso/user/login的验证超级账号登录是否正常用例执行失败:assert '账号或密码输入错误' == 'success1'
+  - success1
+  + 账号或密码输入错误
+test_login.py-35-2022-07-28 16:22:01,844-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert '账号或密码输入错误' == 'success'
+  - success
+  + 账号或密码输入错误
+test_login.py-35-2022-07-28 16:22:01,959-ERROR-/fins-console-sso/user/login的验证超级账号登录是否正常用例执行失败:assert '账号或密码输入错误' == 'success'
+  - success
+  + 账号或密码输入错误
+test_login.py-35-2022-07-28 16:22:14,063-ERROR-/fins-console-sso/user/login的验证某某账号是否正常用例执行失败:assert '账号或密码输入错误' == 'success'
+  - success
+  + 账号或密码输入错误
+test_login.py-35-2022-07-28 16:22:14,183-ERROR-/fins-console-sso/user/login的验证超级账号登录是否正常用例执行失败:assert '账号或密码输入错误' == 'success'
+  - success
+  + 账号或密码输入错误

@@ -1,5 +1,5 @@
 {
-  "uid" : "5e633cc5c198cdcf",
+  "uid" : "19e25e96651c0d2b",
   "name" : "test_login[casedata1]",
   "fullName" : "testCase.test_login.Test_login#test_login",
   "historyId" : "6061452b3662f0e45fd2fb20b7e3458e",
@@ -31,15 +31,15 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "da9c315083ed8089",
+      "uid" : "5f2dbcdd0dd6be97",
       "name" : "stdout",
-      "source" : "da9c315083ed8089.txt",
+      "source" : "5f2dbcdd0dd6be97.txt",
       "type" : "text/plain",
       "size" : 26
     }, {
-      "uid" : "d50c0099f3683826",
+      "uid" : "d927177a4f4bfd82",
       "name" : "stderr",
-      "source" : "d50c0099f3683826.txt",
+      "source" : "d927177a4f4bfd82.txt",
       "type" : "text/plain",
       "size" : 132
     } ],
@@ -104,14 +104,12 @@
     "value" : "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'fangw1', 'veryfi': {'errMsg': 'success'}, 'description': '验证超级账号登录是否正常'}"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5e633cc5c198cdcf.json",
+  "source" : "19e25e96651c0d2b.json",
   "parameterValues" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'fangw1', 'veryfi': {'errMsg': 'success'}, 'description': '验证超级账号登录是否正常'}" ]
 }

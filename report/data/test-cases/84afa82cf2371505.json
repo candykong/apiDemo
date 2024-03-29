@@ -1,5 +1,5 @@
 {
-  "uid" : "3bee9655b8c40f92",
+  "uid" : "84afa82cf2371505",
   "name" : "test_remindMatterList[casedata0]",
   "fullName" : "testCase.test_remindMatterList.Test_remindMatterList#test_remindMatterList",
   "historyId" : "221ecc6e1817138a417f86b90380675f",
@@ -35,9 +35,9 @@
     "statusTrace" : "self = <test_remindMatterList.Test_remindMatterList object at 0x1037c4a30>\ncasedata = {'channel': 'PC', 'description': '验证pc端事项列表是否正常', 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJib2IiLCJleHAiOjE2NTIxNzEzNTksInVzZXJJZCI6ImZhbmd3MSJ9.5PLrITVXvPmEwojptOHeHBbC-HsODmCngsm-0ZLuWzM', 'veryfi': {'errMsg': 'success'}}\n\n    @allure.story(\"获取事项列表\")\n    @pytest.mark.parametrize('casedata', yaml.safe_load(open(\"data/remindMatterList_data.yaml\")))\n    def test_remindMatterList(self,casedata):\n        self.casedata = casedata\n        casedata.update(self.token)\n        self.data = CommonTemplate().template(\"api/remindMatterList.yaml\", self.casedata)\n        self.r = self.getResponse(self.data)\n        # 获取用例标题和测试用例描述\n        description = casedata.get(\"description\")\n        uri = Handle_yaml(\"api/remindMatterList.yaml\").get_uri()\n        try:\n            expected_errMsg = self.casedata.get(\"veryfi\").get(\"errMsg\")\n>           assert (self.r.json()[\"errMsg\"] == expected_errMsg)\nE           KeyError: 'errMsg'\n\ntestCase/test_remindMatterList.py:26: KeyError",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "45fb66188d1ba3a0",
+      "uid" : "355d88de2a68e20",
       "name" : "stdout",
-      "source" : "45fb66188d1ba3a0.txt",
+      "source" : "355d88de2a68e20.txt",
       "type" : "text/plain",
       "size" : 26
     } ],
@@ -102,18 +102,12 @@
     "value" : "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3bee9655b8c40f92.json",
+  "source" : "84afa82cf2371505.json",
   "parameterValues" : [ "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}" ]
 }

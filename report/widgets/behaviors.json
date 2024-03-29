@@ -1,13 +1,13 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "b94661603b2be1feb7ccf804b08e0d84",
     "name" : "测试登录退出模块",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }
@@ -16,9 +16,20 @@
     "name" : "提醒事项模块",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3c7537e37e0b8da530fcda58bcc8f0c6",
+    "name" : "策略管理模块接口用例脚本",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     }

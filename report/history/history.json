@@ -2,20 +2,38 @@
   "221ecc6e1817138a417f86b90380675f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3bee9655b8c40f92",
-      "status" : "broken",
-      "statusDetails" : "KeyError: 'errMsg'",
+      "uid" : "f76bd7bd87270eeb",
+      "status" : "passed",
       "time" : {
-        "start" : 1652169577890,
-        "stop" : 1652169577934,
-        "duration" : 44
+        "start" : 1658990964149,
+        "stop" : 1658990964493,
+        "duration" : 344
+      }
+    } ]
+  },
+  "97b4d4a8921f458dca8437532447bbb0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b46b89183f597d17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658990964500,
+        "stop" : 1658990964588,
+        "duration" : 88
       }
     } ]
   },
@@ -29,32 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5e633cc5c198cdcf",
+      "uid" : "35c18ead1f808a24",
       "status" : "passed",
       "time" : {
-        "start" : 1652169577833,
-        "stop" : 1652169577882,
-        "duration" : 49
+        "start" : 1658990963896,
+        "stop" : 1658990964142,
+        "duration" : 246
       }
     } ]
   },
   "9e54f0f5961ee2a0eb6043221697b907" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31d1e51733799aa",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '帐号或密码输入错误' == 'aasuccess1'\n  - aasuccess1\n  + 帐号或密码输入错误",
+      "uid" : "56d05167abb17673",
+      "status" : "passed",
       "time" : {
-        "start" : 1652169577636,
-        "stop" : 1652169577702,
-        "duration" : 66
+        "start" : 1658990963620,
+        "stop" : 1658990963887,
+        "duration" : 267
       }
     } ]
   }

@@ -4,23 +4,79 @@
   "children" : [ {
     "name" : "kongdeMacBook-Air.local",
     "children" : [ {
-      "name" : "5409-MainThread",
+      "name" : "3157-MainThread",
       "children" : [ {
-        "name" : "test_remindMatterList[casedata0]",
-        "uid" : "3bee9655b8c40f92",
-        "parentUid" : "f51a516447e053a66ad95ddaf156a657",
-        "status" : "broken",
+        "name" : "test_login[casedata1]",
+        "uid" : "35c18ead1f808a24",
+        "parentUid" : "f3257e2d178464a1aa84293690986ef9",
+        "status" : "passed",
         "time" : {
-          "start" : 1652169577890,
-          "stop" : 1652169577934,
-          "duration" : 44
+          "start" : 1658990963896,
+          "stop" : 1658990964142,
+          "duration" : 246
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'fangw1', 'veryfi': {'errMsg': 'success'}, 'description': '验证超级账号登录是否正常'}" ]
+      }, {
+        "name" : "test_remindMatterList[casedata0]",
+        "uid" : "f76bd7bd87270eeb",
+        "parentUid" : "f3257e2d178464a1aa84293690986ef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658990964149,
+          "stop" : 1658990964493,
+          "duration" : 344
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}" ]
       }, {
+        "name" : "test_remindMatterList[casedata0]",
+        "uid" : "b46b89183f597d17",
+        "parentUid" : "f3257e2d178464a1aa84293690986ef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658990964500,
+          "stop" : 1658990964588,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'isRel': None, 'pageNum': 1, 'pageSize': 10, 'strategyCode': None, 'strategyName': None, 'strategyStatus': None, 'strategyType': 'strategy_1', 'veryfi': {'errMsg': 'success'}, 'description': '验证查询黑名单的第一页，每页10条'}" ]
+      }, {
+        "name" : "test_login[casedata0]",
+        "uid" : "56d05167abb17673",
+        "parentUid" : "f3257e2d178464a1aa84293690986ef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658990963620,
+          "stop" : 1658990963887,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'success'}, 'description': '验证某某账号是否正常'}" ]
+      } ],
+      "uid" : "f3257e2d178464a1aa84293690986ef9"
+    }, {
+      "name" : "5409-MainThread",
+      "children" : [ {
+        "name" : "test_login[casedata0]",
+        "uid" : "21a310b7c9152542",
+        "parentUid" : "f51a516447e053a66ad95ddaf156a657",
+        "status" : "failed",
+        "time" : {
+          "start" : 1652169577636,
+          "stop" : 1652169577702,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
+      }, {
         "name" : "test_login[casedata1]",
-        "uid" : "5e633cc5c198cdcf",
+        "uid" : "19e25e96651c0d2b",
         "parentUid" : "f51a516447e053a66ad95ddaf156a657",
         "status" : "passed",
         "time" : {
@@ -32,18 +88,18 @@
         "newFailed" : false,
         "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'fangw1', 'veryfi': {'errMsg': 'success'}, 'description': '验证超级账号登录是否正常'}" ]
       }, {
-        "name" : "test_login[casedata0]",
-        "uid" : "31d1e51733799aa",
+        "name" : "test_remindMatterList[casedata0]",
+        "uid" : "84afa82cf2371505",
         "parentUid" : "f51a516447e053a66ad95ddaf156a657",
-        "status" : "failed",
+        "status" : "broken",
         "time" : {
-          "start" : 1652169577636,
-          "stop" : 1652169577702,
-          "duration" : 66
+          "start" : 1652169577890,
+          "stop" : 1652169577934,
+          "duration" : 44
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{'channel': 'PC', 'password': '/XrJ0I8kCO6JZ6rxmTpvmg==', 'userCode': 'liuxl2', 'veryfi': {'errMsg': 'aasuccess1'}, 'description': '验证某某账号是否正常'}" ]
+        "parameters" : [ "{'channel': 'PC', 'veryfi': {'errMsg': 'success'}, 'description': '验证pc端事项列表是否正常'}" ]
       } ],
       "uid" : "f51a516447e053a66ad95ddaf156a657"
     } ],

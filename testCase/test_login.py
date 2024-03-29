@@ -19,6 +19,7 @@ class Test_login(Testcase_base):
 
     @allure.story("登录接口")
     @pytest.mark.parametrize('casedata', yaml.safe_load(open("data/login_data.yaml")))
+    @pytest.mark.dependency(name='test_login')
     def test_login(self,casedata):
         self.casedata=casedata
         self.data = CommonTemplate().template("api/login.yaml", self.casedata)
@@ -33,4 +34,11 @@ class Test_login(Testcase_base):
         except AssertionError as e:
             error_logger.error(uri+"的"+description+"用例执行失败:{}".format(e))
             raise e
+
+
+    @pytest.mark.dependency(depends=['test_login'],scope="class")
+    def test_logout(self):
+        assert 1==1
+
+
 
